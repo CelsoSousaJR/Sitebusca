@@ -1,0 +1,16 @@
+body {
+	background-color:#fb4a71;
+    margin: 0;
+    overflow: hidden;
+}
+
+#elemento-reposicionavel {
+    width: 100px;
+    height: 100px;
+    background-color: #6339ad;
+    position: absolute;
+    border-radius:5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
